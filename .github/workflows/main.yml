@@ -19,8 +19,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install hexo-cli -g
     - run: npm install
-    - run: npm generate
-    - run: npm deploy
+    - run: hexo generate
+    - run: hexo deploy
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
