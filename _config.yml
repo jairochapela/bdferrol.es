@@ -101,3 +101,13 @@ deploy:
   type: aws-s3
   region: eu-west-3
   bucket: bdferrol.es
+
+# RSS feed
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit: 100
+    content_limit_delim: ' '
