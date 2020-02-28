@@ -17,4 +17,4 @@ Sobre esta máquina virtual instalamos el sistema operativo a partir de la ISO d
 
 Las particiones tendrán un sistema de archivos de tipo Ext4; a excepción de la swap, que tendrá el formato propio.
 
-Para formalizar la entrega, se pide un documento en el que se enumeren las particiones creadas y sus respectivos puntos de montaje. Acompáñese la enumeración con capturas de los comandos ``cat /proc/partitions`` y ``mount``. La entrega se hará de forma individual, en un documento PDF, a través de [este enlace](https://zurdistan.cloud/index.php/s/qsQ7xxm34qKYGTd).
+Para formalizar la entrega, se pide un documento en el que se enumeren las particiones creadas y sus respectivos puntos de montaje. Acompáñese la enumeración con capturas de los comandos ``cat /proc/partitions`` y ``mount``. Indicar también cómo está configurada la swap, con la correspondiente captura del comando ``free``. La entrega se hará de forma individual, en un documento PDF, a través de [este enlace](https://zurdistan.cloud/index.php/s/qsQ7xxm34qKYGTd).
