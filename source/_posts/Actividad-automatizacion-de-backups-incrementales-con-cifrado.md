@@ -21,4 +21,13 @@ Elaborar un documento que describa el procedimiento a seguir, paso a paso, para 
 
 ## Algo de información
 
+El procedimiento consta de las siguientes partes o tareas:
+
+* Instalar Duplicity.
+* Definir una clave para el cifrado de las copias de seguridad.
+* Disponer de un servidor remoto, accesible por SSH. En ese servidor tendremos una cuenta de usuario y una carpeta ``backups``.
+* Generación en local de un par de claves RSA (sin passphrase) para poder acceder al servidor sin tener que introducir la contraseña.
+* Transferir la clave pública RSA al servidor remoto.
+* Configurar **cron** para que automatice las copias de seguridad.
+
 A modo de referencia, se proporcionan algunos scripts y configuraciones para realizar este proceso con **Duplicity**, copiando al servidor remoto los backups mediante **rsync**. Pueden consultarse [en este enlace](https://gist.github.com/jairochapela/ee088e8b5d514203302007ee3b51bcb4).
