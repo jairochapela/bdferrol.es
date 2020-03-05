@@ -18,3 +18,7 @@ En cuanto a la periodicidad de las copias, se pretende mantener una copia comple
 ## Se pide
 
 Elaborar un documento que describa el procedimiento a seguir, paso a paso, para instalar y configurar el procedimiento de copias de seguridad periódicas. Es importante incluir en dicho documento un apartado que detalle el proceso de recuperación de una copia de seguridad previa. El documento se entregará en formato PDF a través de [este enlace](https://zurdistan.cloud/index.php/s/bdD2n6fmPnxar3x).
+
+## Algo de información
+
+A modo de referencia, se proporcionan algunos scripts y configuraciones para realizar este proceso con **Duplicity**, copiando al servidor remoto los backups mediante **rsync**. Pueden consultarse [en este enlace](https://gist.github.com/jairochapela/ee088e8b5d514203302007ee3b51bcb4).
