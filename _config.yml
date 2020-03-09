@@ -111,3 +111,22 @@ feed:
     content:
     content_limit: 100
     content_limit_delim: ' '
+
+cookieconsent:
+  enable: true
+  options: {
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "content": {
+        "message": "Este sitio web hace uso de cookies para mejorar la experiencia de usuario.",
+        "dismiss": "Estoy de acuerdo",
+        "link": "Más información",
+        "href": "https://bdferrol.es/"
+      }
+    }
