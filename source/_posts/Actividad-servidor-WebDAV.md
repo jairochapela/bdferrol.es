@@ -33,3 +33,12 @@ Al utilizar este tipo de autenticación, también debemos generar contraseñas c
 ```
 htdigest -c /etc/apache2/webdav.passwd WebDAV usuario
 ```
+
+
+### Si algo va mal...
+
+Para detectar errores o causas de un mal funcionamiento puede ser de utilidad consultar el registro de errores de Apache. Se puede hacer con el comando siguiente:
+```
+tail -f /var/log/apache2/error.log
+```
+
