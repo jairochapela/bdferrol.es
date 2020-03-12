@@ -41,7 +41,31 @@ Podemos indicarle un tiempo de validez en días si además incorporamos la opci�
 
 Una vez generado el certificado, copiaremos clave y certificado en el servidor, asegurándonos de que el acceso a la clave está protegido. El servidor web ha de configurarse para utilizar el certificado.
 
+```
+cp root-ca.crt certificate.crt /etc/ssl/certs
+cp root-ca.key certificate.key /etc/ssl/private
+```
+
+El certificado recién generado se indicará en la configuración del servidor web (Apache) para que lo utilice. Es necesario reiniciar el servicio.
 
 ### Generación de certificados de usuario
 
-(TBD)
+Para generar un certificado de usuario comenzamos también con una solicitud:
+
+```
+openssl req -newkey rsa:2048 -keyout jairo.key -out jairo.csr
+```
+
+A partir de la solicitud se genera el certificado.
+
+```
+openssl x509 -req -in jairo.csr -CA root-ca.crt -CAkey root-ca.key -extensions client -out jairo.csr
+```
+
+El certificado se empaqueta en formato PKCS12 para poder entregárselo al usuario y que éste lo pueda importar en su equipo:
+
+```
+openssl pkcs12 -export -inkey jairo.key -in jairo.crt -out jairo.p12
+```
+
+El fichero .p12 resultante está listo para ser importado en el navegador.

@@ -1,7 +1,7 @@
 ---
 title: 'Actividad: comprendiendo el RGPD'
 date: 2020-03-09 00:17:25
-tags: UF1866
+tags: UF1466
 ---
 En mayo de 2018 entró en vigor el actual Reglamento General de Protección de Datos (RGPD). Dicho reglamento determina, a nivel europeo, las bases para que los países de la UE actualicen sus leyes en materia de protección de datos. La Ley Orgánica 3/2018, del 5 de diciembre de 2018, regula el tratamiento de los datos personales y la garantía de los derechos digitales en España.
 
