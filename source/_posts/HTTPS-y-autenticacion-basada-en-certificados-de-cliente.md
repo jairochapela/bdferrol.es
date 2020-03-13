@@ -59,7 +59,7 @@ openssl req -newkey rsa:2048 -keyout jairo.key -out jairo.csr
 A partir de la solicitud se genera el certificado.
 
 ```
-openssl x509 -req -in jairo.csr -CA root-ca.crt -CAkey root-ca.key -extensions client -out jairo.csr
+openssl x509 -req -in jairo.csr -CA root-ca.crt -CAkey root-ca.key -extensions client -out jairo.crt
 ```
 
 El certificado se empaqueta en formato PKCS12 para poder entregárselo al usuario y que éste lo pueda importar en su equipo:
