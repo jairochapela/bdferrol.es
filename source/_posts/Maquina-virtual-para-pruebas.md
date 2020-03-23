@@ -12,4 +12,6 @@ Pongo a vuestra disposición una imagen de una máquina virtual con la que podr�
 
 Para utilizarla necesitáis VirtualBox instalado en vuestro ordenador. Desde el gestor gráfico de VirtualBox podéis importar el OVA y arrancáis la máquina recién creada. La red se configura sola por DHCP. Tiene ya creado un usuario llamado ``ricky`` con password ``maria123``.
 
-El archivo OVA lo podéis descargar de este enlace: [Maria.ova](https://assets.bdferrol.es/Maria.ova).
+El archivo OVA lo podéis descargar de estos enlaces: 
+* [Versión de 64 bits](https://assets.bdferrol.es/Maria.ova)
+* [Versión de 32 bits](https://assets.bdferrol.es/Maria32.ova)
