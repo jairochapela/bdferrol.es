@@ -10,7 +10,7 @@ Pongo a vuestra disposición una imagen de una máquina virtual con la que podr�
 * Adminer
 * OpenSSH
 
-Para utilizarla necesitáis VirtualBox instalado en vuestro ordenador. Desde el gestor gráfico de VirtualBox podéis importar el OVA y arrancáis la máquina recién creada. La red se configura sola por DHCP. Tiene ya creado un usuario llamado ``ricky`` con password ``maria123``.
+Para utilizarla necesitáis VirtualBox instalado en vuestro ordenador. Desde el gestor gráfico de VirtualBox podéis importar el OVA y arrancáis la máquina recién creada. La red se configura sola por DHCP. Tiene ya creado un usuario llamado ``ricky`` con password ``maria123``. Téngase en cuenta que el usuario del que hablamos es un usuario del sistema, no de la base de datos; para acceder a esta última, utilizar el usuario ``root`` con la misma contraseña.
 
 El archivo OVA lo podéis descargar de estos enlaces: 
 * [Versión de 64 bits](https://assets.bdferrol.es/Maria.ova)
